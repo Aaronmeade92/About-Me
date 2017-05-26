@@ -17,13 +17,22 @@ else {
   alert('Alright I guess that\'s cool')
 }
 
-var answer2 = prompt("Do you like Rick and Morty?")
+var answer2 = prompt('Do you like Rick and Morty?')
 
 if (answer2.toUpperCase() === 'Y') {
   alert('Of course you do! Everyone does!')
 }
 else {
   alert('Alright I guess that\'s cool')
+}
+
+var answer1 = prompt('Are Black Bears the best bears?')
+
+if (answer1.toUpperCase() === 'Y') {
+  alert('FACT: Bears eat beets')
+}
+else {
+  alert('That\'s debatable')
 }
 // var answer1 = prompt(user + ' this is a yes or no question, so please answer with a Y or N. Does Adam have a dog?');
 
