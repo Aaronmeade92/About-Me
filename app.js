@@ -34,6 +34,7 @@ if (answer1.toUpperCase() === 'Y') {
 else {
   alert('That\'s debatable')
 }
+
 // var answer1 = prompt(user + ' this is a yes or no question, so please answer with a Y or N. Does Adam have a dog?');
 
 // if (answer1.toUpperCase() === 'Y') {
