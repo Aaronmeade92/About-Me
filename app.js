@@ -17,11 +17,20 @@ if (answer1.toUpperCase() === 'Y') {
 else {
   alert('Alright I guess that\'s cool')
 }
-
-var answer1 = prompt(user + ' this is a yes or no question, so please answer with a Y or N. Does Adam have a dog?');
+ var answer1 = prompt('Do you like Rick and Morty?')
 
 if (answer1.toUpperCase() === 'Y') {
-  alert('Yes! You are correct! Adam does have a dog!');
-} else {
-  alert('Nope... too bad.');
+  alert('Tiny Rick!')
 }
+else {
+  alert('Alright, that\'s cool too')
+}
+
+
+// var answer1 = prompt(user + ' this is a yes or no question, so please answer with a Y or N. Does Adam have a dog?');
+
+// if (answer1.toUpperCase() === 'Y') {
+//  alert('Yes! You are correct! Adam does have a dog!');
+// } else {
+//  alert('Nope... too bad.');
+// }
