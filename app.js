@@ -11,30 +11,49 @@ else {
 var answer1 = prompt('Do you enjoy beer? \(All of these questions will be yes or no questions, so please answer with a Y or N.\)');
 
 if (answer1.toUpperCase() === 'Y') {
-  alert('Of course you do! Everyone does!')
+  alert('Of course you do! Everyone does!');
 }
 else {
-  alert('Alright I guess that\'s cool')
+  alert('Alright I guess that\'s cool');
 }
 
-var answer2 = prompt('Do you like Rick and Morty?')
+var answer2 = prompt('Do you like Rick and Morty?');
 
 if (answer2.toUpperCase() === 'Y') {
-  alert('Of course you do! Everyone does!')
+  alert('And that\'s the wayyyyyy the news goes');
 }
 else {
-  alert('Alright I guess that\'s cool')
+  alert('Graaassssss taste bad');
 }
 
-var answer1 = prompt('Are Black Bears the best bears?')
+var answer1 = prompt('Are Black Bears the best bears?');
 
 if (answer1.toUpperCase() === 'Y') {
-  alert('FACT: Bears eat beets')
+  alert('FACT: Bears eat beets');
 }
 else {
-  alert('That\'s debatable')
+  alert('That\'s debatable');
 }
 
+var answer1 = prompt('Are those mountains on a cob?');
+
+if (answer1.toUpperCase() === 'Y') {
+    alert('Get in the ship sweetie!');
+}
+
+else {
+  alert('Ok we can stay here');
+}
+
+var answer1 = prompt('Do you like RuPaul?');
+
+if (answer1.toUpperCase() === 'Y') {
+  alert('Shantay you stay');
+}
+
+else {
+  alert('Sashay away');
+}
 // var answer1 = prompt(user + ' this is a yes or no question, so please answer with a Y or N. Does Adam have a dog?');
 
 // if (answer1.toUpperCase() === 'Y') {
