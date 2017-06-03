@@ -8,7 +8,7 @@ if (confirmed === true) {
 else {
   console.log('The user said they are not ready... but we are going to start anyways');
 }
-var answer1 = prompt('Do you enjoy beer? \(All of these questions will be yes or no questions, so please answer with a Y or N.\)');
+var answer1 = prompt('\(Some of these questions will be yes or no questions, so please answer with a Y or N.\ Unless specified otherwise.)');
 
 if (answer1.toUpperCase() === 'Y') {
   alert('Of course you do! Everyone does!');
@@ -53,6 +53,16 @@ if (answer1.toUpperCase() === 'Y') {
 
 else {
   alert('Sashay away');
+}
+
+var answer1 = prompt('Can you guess another state that I have lived in besides Washington?')
+
+if (answer1 === 'California' || 'Kentucky' || 'Georgia') {
+  alert('Wow! Didn\'t think you could guess that one! Good job!');
+}
+
+else {
+  alert('Better luck next time...');
 }
 // var answer1 = prompt(user + ' this is a yes or no question, so please answer with a Y or N. Does Adam have a dog?');
 
