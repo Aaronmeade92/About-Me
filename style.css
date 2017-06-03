@@ -11,3 +11,7 @@ p {
   margin-right: 250px;
   margin-left: 100px;
 }
+
+#number-of-correct{
+  font-family: fantasy;
+}
