@@ -23,7 +23,7 @@ var answer2 = prompt('Do you like Rick and Morty?');
 
 if (answer2.toUpperCase() === 'Y') {
   alert('And that\'s the wayyyyyy the news goes');
-  console.log('2/5 correct!');
+  console.log;
 }
 else {
   alert('Graaassssss taste bad');
@@ -34,7 +34,7 @@ var answer1 = prompt('Are Black Bears the best bears?');
 
 if (answer1.toUpperCase() === 'Y') {
   alert('FACT: Bears eat beets');
-  console.log('3/5 correct!');
+  console.log;
 }
 else {
   alert('That\'s debatable');
@@ -45,7 +45,7 @@ var answer1 = prompt('Are those mountains on a cob?');
 
 if (answer1.toUpperCase() === 'Y') {
     alert('Get in the ship sweetie!');
-    console.log('4/5 correct')
+    console.log
 }
 
 else {
@@ -64,10 +64,23 @@ else {
   alert('Sashay away');
 }
 
-var answer1 = prompt('How many different color Lantern Corps. are there?')
 
-if (answer1 === 8) {
-  alert()
+
+for (var guesses = 1; guesses <= 5; guesses++) {
+  var answer1 = prompt('How many different color Lantern Corps. are there?');
+  console.log('1/4')
+  if (parseInt(answer1) === 8) {
+alert('Wow! Good job!');
+break;
+  }
+
+  else if (answer1 > 8) {
+
+    alert('Too High!');
+  }
+  else {
+    alert('Too Low!');
+  }
 }
 
 var answer1 = prompt('Can you guess another state that I have lived in besides Washington?');
@@ -79,6 +92,7 @@ if (answer1 === 'California', answer1 === 'Kentucky', answer1 === 'Georgia') {
 else {
   alert('Better luck next time...');
 }
+
 // var answer1 = prompt(user + ' this is a yes or no question, so please answer with a Y or N. Does Adam have a dog?');
 
 // if (answer1.toUpperCase() === 'Y') {
