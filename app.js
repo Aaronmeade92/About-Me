@@ -55,9 +55,9 @@ else {
   alert('Sashay away');
 }
 
-var answer1 = prompt('Can you guess another state that I have lived in besides Washington?')
+var answer1 = prompt('Can you guess another state that I have lived in besides Washington?');
 
-if (answer1 === 'California' || 'Kentucky' || 'Georgia') {
+if (answer1 === 'California', answer1 === 'Kentucky', answer1 === 'Georgia') {
   alert('Wow! Didn\'t think you could guess that one! Good job!');
 }
 
