@@ -12,11 +12,11 @@ if (confirmed === true) {
 else {
   console.log('The user said they are not ready... but we are going to start anyways');
 }
-var answer1 = prompt('\(Some of these questions will be yes or no questions, so please answer with a Y or N.\ Unless specified otherwise.)');
+var answer1 = prompt('Do you enjoy beer?\(Some of these questions will be yes or no questions, so please answer with a Y or N.\ Unless specified otherwise.)');
 
 if (answer1.toUpperCase() === 'Y') {
   alert('Of course you do! Everyone does!');
-  correct++
+  correct++;
   console.log(correct);
 }
 
@@ -76,8 +76,8 @@ else {
 
 
 
-for (var guesses = 1; guesses <= 5; guesses++) {
-  var answer1 = prompt('How many different color Lantern Corps. are there?');
+for (var guesses = 1; guesses <= 7; guesses++) {
+  var answer1 = prompt('How many different color Lantern Corps. are there?(Please answer using a number)');
   console.log();
   if (parseInt(answer1) === 8) {
 alert('Wow! Good job!');
@@ -96,16 +96,17 @@ break;
 }
 
 var answer1 = prompt('Can you guess another state that I have lived in besides Washington?');
+for (var i = 0; i <= 2; i++){
+  var array = ['California', 'Kentucky', 'Georgia'];
+    if (answer1 === array[i]) {
+      alert('Wow! Didn\'t think you could guess that one! Good job!');
+    }
 
-if (answer1 === 'California', answer1 === 'Kentucky', answer1 === 'Georgia') {
-  alert('Wow! Didn\'t think you could guess that one! Good job!');
+    else {
+      alert('Better luck next time...');
+    }
 }
-
-else {
-  alert('Better luck next time...');
-}
-
-document.write('<p id="number-of-correct">You got '+ correct + 'out of 7! Good job!</p>');
+document.write('<p id="number-of-correct">You got ' + correct + ' out of 7! Good job!</p>');
 // var answer1 = prompt(user + ' this is a yes or no question, so please answer with a Y or N. Does Adam have a dog?');
 
 // if (answer1.toUpperCase() === 'Y') {
