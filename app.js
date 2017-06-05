@@ -14,18 +14,23 @@ else {
 }
 var answer1 = prompt('Do you enjoy beer?\(Some of these questions will be yes or no questions, so please answer with a Y or N.\ Unless specified otherwise.)');
 
+function question1() {
+
 if (answer1.toUpperCase() === 'Y') {
   alert('Of course you do! Everyone does!');
   correct++;
   console.log(correct);
-}
+  }
 
   else {
   alert('Alright I guess that\'s cool');
   console.log('Keep trying!');
+  }
 }
 
 var answer2 = prompt('Do you like Rick and Morty?');
+
+function question2(){
 
 if (answer2.toUpperCase() === 'Y') {
   alert('And that\'s the wayyyyyy the news goes');
@@ -35,9 +40,11 @@ if (answer2.toUpperCase() === 'Y') {
 else {
   alert('Graaassssss taste bad');
   console.log('Keep trying!');
+  }
 }
-
 var answer1 = prompt('Are Black Bears the best bears?');
+
+function question3(){
 
 if (answer1.toUpperCase() === 'Y') {
   alert('FACT: Bears eat beets');
@@ -47,9 +54,11 @@ if (answer1.toUpperCase() === 'Y') {
 else {
   alert('That\'s debatable');
   console.log('Keep trying!');
+  }
 }
-
 var answer1 = prompt('Are those mountains on a cob?');
+
+function question4(){
 
 if (answer1.toUpperCase() === 'Y') {
     alert('Get in the ship sweetie!');
@@ -60,30 +69,34 @@ if (answer1.toUpperCase() === 'Y') {
 else {
   alert('Ok we can stay here');
   console.log('Keep trying!');
+  }
 }
-
 var answer1 = prompt('Do you like RuPaul?');
+
+function question5() {
 
 if (answer1.toUpperCase() === 'Y') {
   alert('Shantay you stay');
   correct++;
   console.log(correct);
-}
+  }
 
 else {
   alert('Sashay away');
+  }
 }
-
 
 
 for (var guesses = 1; guesses <= 7; guesses++) {
   var answer1 = prompt('How many different color Lantern Corps. are there?(Please answer using a number)');
   console.log();
+
+function question6() {
+
   if (parseInt(answer1) === 8) {
 alert('Wow! Good job!');
 correct++;
 console.log(correct);
-break;
   }
 
   else if (answer1 > 8) {
@@ -92,10 +105,15 @@ break;
   }
   else {
     alert('Too Low!');
+    }
   }
 }
 
+
 var answer1 = prompt('Can you guess another state that I have lived in besides Washington?');
+
+function question7(){
+
 for (var i = 0; i <= 2; i++){
   var array = ['California', 'Kentucky', 'Georgia'];
     if (answer1 === array[i]) {
@@ -105,7 +123,17 @@ for (var i = 0; i <= 2; i++){
     else {
       alert('Better luck next time...');
     }
+  }
 }
+
+question1();
+question2();
+question3();
+question4();
+question5();
+question6();
+question7();
+
 document.write('<p id="number-of-correct">You got ' + correct + ' out of 7! Good job!</p>');
 // var answer1 = prompt(user + ' this is a yes or no question, so please answer with a Y or N. Does Adam have a dog?');
 
