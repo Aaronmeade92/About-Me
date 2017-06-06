@@ -18,5 +18,13 @@ p {
 }
 
 ol {
+<<<<<<< HEAD
   
+=======
+  margin-left: px;
+  margin-right:px;
+  padding-left: px;
+  padding-right: px;
+  font-size: 30px;
+>>>>>>> 169a518902ab39cb07c7cc691e7dec38760d7a14
 }
