@@ -16,3 +16,11 @@ p {
   font-family: fantasy;
   font-size: 20px;
 }
+
+ol {
+  margin-left: px;
+  margin-right:px;
+  padding-left: px;
+  padding-right: px;
+  font-size: 30px;
+}
