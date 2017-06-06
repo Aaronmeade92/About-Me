@@ -12,9 +12,11 @@ if (confirmed === true) {
 else {
   console.log('The user said they are not ready... but we are going to start anyways');
 }
+function question1() {
+  
 var answer1 = prompt('Do you enjoy beer?\(Some of these questions will be yes or no questions, so please answer with a Y or N.\ Unless specified otherwise.)');
 
-function question1() {
+
 
 if (answer1.toUpperCase() === 'Y') {
   alert('Of course you do! Everyone does!');
@@ -27,10 +29,10 @@ if (answer1.toUpperCase() === 'Y') {
   console.log('Keep trying!');
   }
 }
+function question2(){
 
 var answer2 = prompt('Do you like Rick and Morty?');
 
-function question2(){
 
 if (answer2.toUpperCase() === 'Y') {
   alert('And that\'s the wayyyyyy the news goes');
@@ -42,9 +44,11 @@ else {
   console.log('Keep trying!');
   }
 }
-var answer1 = prompt('Are Black Bears the best bears?');
 
 function question3(){
+var answer1 = prompt('Are Black Bears the best bears?');
+
+
 
 if (answer1.toUpperCase() === 'Y') {
   alert('FACT: Bears eat beets');
@@ -56,9 +60,11 @@ else {
   console.log('Keep trying!');
   }
 }
-var answer1 = prompt('Are those mountains on a cob?');
 
 function question4(){
+
+var answer1 = prompt('Are those mountains on a cob?');
+
 
 if (answer1.toUpperCase() === 'Y') {
     alert('Get in the ship sweetie!');
@@ -71,9 +77,10 @@ else {
   console.log('Keep trying!');
   }
 }
-var answer1 = prompt('Do you like RuPaul?');
 
 function question5() {
+var answer1 = prompt('Do you like RuPaul?');
+
 
 if (answer1.toUpperCase() === 'Y') {
   alert('Shantay you stay');
@@ -86,12 +93,11 @@ else {
   }
 }
 
-
+function question6() {
 for (var guesses = 1; guesses <= 7; guesses++) {
   var answer1 = prompt('How many different color Lantern Corps. are there?(Please answer using a number)');
   console.log();
 
-function question6() {
 
   if (parseInt(answer1) === 8) {
 alert('Wow! Good job!');
@@ -109,10 +115,8 @@ console.log(correct);
   }
 }
 
-
-var answer1 = prompt('Can you guess another state that I have lived in besides Washington?');
-
 function question7(){
+var answer1 = prompt('Can you guess another state that I have lived in besides Washington?');
 
 for (var i = 0; i <= 2; i++){
   var array = ['California', 'Kentucky', 'Georgia'];
