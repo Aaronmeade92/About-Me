@@ -1,4 +1,4 @@
-'use strict';
+ 'use strict';
 
 var correct = 0;
 console.log('Value of correct is' + correct);
@@ -13,7 +13,7 @@ else {
   console.log('The user said they are not ready... but we are going to start anyways');
 }
 function question1() {
-  
+
 var answer1 = prompt('Do you enjoy beer?\(Some of these questions will be yes or no questions, so please answer with a Y or N.\ Unless specified otherwise.)');
 
 
