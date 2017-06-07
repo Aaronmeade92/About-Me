@@ -1,6 +1,11 @@
 
+body{
+  background-color: ;
+  width:
+}
+
 h1 {
-  background-color:blue;
+  background-color:;
   margin-left: 250px;
   margin-right: 250px;
   padding-left: 100px;
@@ -8,26 +13,31 @@ h1 {
 }
 
 p {
+  background-color:#;
   margin-right: 250px;
-  margin-left: 100px;
+  margin-left: 250px;
+  padding-right: 100px;
+  display: inline;
+  width: 50%;
+  border:
+}
+h2{
+  display:inline;
+}
+h3{
+  display: inline;
 }
 
 #number-of-correct{
   font-family: fantasy;
   font-size: 20px;
 }
-<<<<<<< HEAD
 
 ol {
-<<<<<<< HEAD
-  
-=======
+
+
   margin-left: px;
   margin-right:px;
   padding-left: px;
   padding-right: px;
   font-size: 30px;
->>>>>>> 169a518902ab39cb07c7cc691e7dec38760d7a14
-}
-=======
->>>>>>> 0f1ed6cd7f72c59ec7744a3763670768e43c1f68
